@@ -1,0 +1,80 @@
+<Quiz>
+	<QuizId v="8275000"/>
+	<Question>
+		<Description>In what month and year did the french fall to the Nazi war machine?</Description>
+		<MultipleChoice>
+			  <Answer>Jun. 1940</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Sep. 1939</Choice>
+			  <Choice>Dec. 1939</Choice>
+			  <Choice>Jul 1941</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>In what month and year did ww2 start?</Description>
+		<MultipleChoice>
+			  <Answer>Sep. 1939</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Jul. 1939</Choice>
+			  <Choice>Dec. 1939</Choice>
+			  <Choice>Jul. 1940</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>What was one of the reasons germany invade Norway?</Description>
+		<MultipleChoice>
+			  <Answer>To secure imporant war resources like iron</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Because Nazi wanted more land</Choice>
+			  <Choice>To get all the Norway Jews</Choice>
+			  <Choice>Because hitler was insane</Choice>
+		</MultipleChoice>
+	</Question>
+		<Question>
+		<Description>What was the primary mode of transportantion for the wehrmacht at the beginningo of the war?</Description>
+		<MultipleChoice>
+			  <Answer>Horse and carrage</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Trucks and cars</Choice>
+			  <Choice>Armoured personal Carriers</Choice>
+			  <Choice>Tanks</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>When was the begining and end of the Battle of Britain</Description>
+		<MultipleChoice>
+			  <Answer>Jul. 1940 – Oct. 1940</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Feb. 1940 – Nov. 1941</Choice>
+			  <Choice>Sept. 1939 – Oct. 1940</Choice>
+			  <Choice>Feb. 1940 – Nov. 1940</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>When was Operation Barbarossa?</Description>
+		<MultipleChoice>
+			  <Answer>Invasion of USSR by Germany</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Invasion of Germany by USSR</Choice>
+			  <Choice>Attack on Paris by Germans</Choice>
+			  <Choice>Invasion of Greece by Italians</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>What was Operation Tidal Wave about?</Description>
+		<MultipleChoice>
+			  <Answer>Bombing of oil fields in Romania</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Bombing of major german cities</Choice>
+			  <Choice>Allies push into mainland Germany over the Rhine river</Choice>
+			  <Choice>British intelligence operation in occupied france</Choice>
+		</MultipleChoice>
+	</Question>
+</Quiz>

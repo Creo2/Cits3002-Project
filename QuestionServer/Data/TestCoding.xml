@@ -1,0 +1,67 @@
+<Quiz>
+	<QuizId v="2012000"/>
+	<Question>
+		<Description>Bob the zombie needs you to tell him the exact same number he keeps on saying Input example: 2	Output example: 2
+		</Description>
+		<Coding>
+			<InitCode
+			v = "	#include <stdlib.h>
+					#include <stdio.h>"
+			/>
+			<Test>
+				<Input>2
+				</Input>
+				<Output>2</Output>
+			</Test>
+			<Test>
+				<Input>0
+				</Input>
+				<Output>0</Output>
+			</Test>
+			<Test>
+				<Input>10
+				</Input>
+				<Output>10</Output>
+			</Test>
+			<Test>
+				<Input>100
+				</Input>
+				<Output>100</Output>
+			</Test>
+		</Coding>
+	</Question>
+	<Question>
+		<Description>Jack the zombie is wondering how many human brains he needs to buy for him and his zombie girlfriend. Unfortunatly due his lack of brain cells Jack is not particularly good at this. Can you write a simple python progam to help jack out? Input example: 2 4 Output example: 6
+		</Description>
+		<Coding>
+			<InitCode
+			v = "	#include <stdlib.h>
+					#include <stdio.h>"
+			/>
+			<Test>
+				<Input>2
+				4
+				</Input>
+				<Output>6</Output>
+			</Test>
+			<Test>
+				<Input>0
+				0
+				</Input>
+				<Output>0</Output>
+			</Test>
+			<Test>
+				<Input>10
+				0
+				</Input>
+				<Output>10</Output>
+			</Test>
+			<Test>
+				<Input>100
+				120
+				</Input>
+				<Output>220</Output>
+			</Test>
+		</Coding>
+	</Question>
+</Quiz>

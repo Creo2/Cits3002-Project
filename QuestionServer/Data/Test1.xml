@@ -1,0 +1,100 @@
+<Quiz>
+	<QuizId v="2913000"/>
+	<Question>
+		<Description>Who wrote the following passage and from which book "That is not dead which can eternal lie. And with strange aeons even death may die." </Description>
+		<MultipleChoice>
+			  <Answer>H.P. Lovecraft, The Call of Cthulhu</Answer>
+			  <Random v="1"/>
+			  <Display v="4"/>
+			  <Choice>Abdul Alhazred, Necronomicon</Choice>
+			  <Choice>Stephen King, IT</Choice>
+			  <Choice>Bram Stoker, Dracula</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>Formless protoplasm able to mock and reflect all forms and organs and processes - viscous agglutinations of bubbling cells - rubbery fifteen-foot spheroids infinitely plastic and ductile - slaves of suggestion, builders ofcities - more and more sullen, more and more intelligent, more and more amphibious, more and more imitative! Great God! What madness made even those blasphemous Old Ones willing to use and carve such things?</Description>
+		<MultipleChoice>
+			<Answer>Because who wants to build cities themselves when you can make slaves.</Answer>
+			<Random v="1"/>
+			<Display v="4"/>
+			<Choice>Tekeli-li! Tekeli-li!</Choice>
+			<Choice>SCIENCE!!!!</Choice>
+			<Choice>Because they live in pinapples under the sea!</Choice>
+		</MultipleChoice>
+	</Question>
+	<Question>
+		<Description>what does the following sentence mean in english? "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn,"</Description>
+		<MultipleChoice>
+			<Answer>In his house at R'lyeh dead C'thulhu waits dreaming.</Answer>
+			<Random v="1"/>
+			<Display v="4"/>
+			<Choice>Sometimes I really need to pee but C'thulhu won't let me</Choice>
+			<Choice>In his house at R'lyeh dead c'thulhu is pissed off</Choice>
+			<Choice>I love Cthulhu and wish to have his star spawn</Choice>
+		</MultipleChoice>
+	</Question>
+<Question>
+		<Description>Bob the zombie needs you to tell him the exact same number he keeps on saying Input example: 2	Output example: 2
+		</Description>
+		<Coding>
+			<InitCode
+			v = "	#include <stdlib.h>
+					#include <stdio.h>"
+			/>
+			<Test>
+				<Input>2
+				</Input>
+				<Output>2</Output>
+			</Test>
+			<Test>
+				<Input>0
+				</Input>
+				<Output>0</Output>
+			</Test>
+			<Test>
+				<Input>10
+				</Input>
+				<Output>10</Output>
+			</Test>
+			<Test>
+				<Input>100
+				</Input>
+				<Output>100</Output>
+			</Test>
+		</Coding>
+	</Question>
+	<Question>
+		<Description>Jack the zombie is wondering how many human brains he needs to buy for him and his zombie girlfriend. Unfortunatly due his lack of brain cells Jack is not particularly good at this. Can you write a simple python progam to help jack out? Input example: 2 4 Output example: 6
+		</Description>
+		<Coding>
+			<InitCode
+			v = "	#include <stdlib.h>
+					#include <stdio.h>"
+			/>
+			<Test>
+				<Input>2
+				4
+				</Input>
+				<Output>6</Output>
+			</Test>
+			<Test>
+				<Input>0
+				0
+				</Input>
+				<Output>0</Output>
+			</Test>
+			<Test>
+				<Input>10
+				0
+				</Input>
+				<Output>10</Output>
+			</Test>
+			<Test>
+				<Input>100
+				120
+				</Input>
+				<Output>220</Output>
+			</Test>
+		</Coding>
+	</Question>
+</Quiz>

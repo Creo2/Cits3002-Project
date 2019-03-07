@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Questions">
+      <UniqueIdentifier>{2feaf90b-50bb-4adc-b9eb-3782706f9705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Includes">
+      <UniqueIdentifier>{72ba7d7f-9efb-4f5b-8de6-d5c1a6001383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Quiz">
+      <UniqueIdentifier>{231a9fcc-d16a-42ac-88e6-5f009cdca241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Questions">
+      <UniqueIdentifier>{67eddc56-8068-48af-a276-365e1aeb4cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Includes">
+      <UniqueIdentifier>{c81ce4b2-bdfd-4ead-868f-4f0bfe338e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Quiz">
+      <UniqueIdentifier>{e60e3193-9db7-442e-9ad5-c233813886ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{1a1257cb-d26b-4889-8fe0-7146b0a1d294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Network">
+      <UniqueIdentifier>{4f368f27-01eb-4a12-904c-30244c32af2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random">
+      <UniqueIdentifier>{5b078da8-b26f-4b6b-ac12-6fef148789ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Random">
+      <UniqueIdentifier>{8e3f17bd-07c4-4ac6-89b2-4c417fe8aefb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Questions\Question.cpp">
+      <Filter>Resource Files\Source Files\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QuestionServerMain.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\tinyxml2.cpp">
+      <Filter>Resource Files\Source Files\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Questions\MultichoiceComponent.cpp">
+      <Filter>Resource Files\Source Files\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Questions\CodingComponent.cpp">
+      <Filter>Resource Files\Source Files\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Questions\Quiz.cpp">
+      <Filter>Resource Files\Source Files\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UtilityFunctions.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QuizFactory\QuizFactory.cpp">
+      <Filter>Resource Files\Source Files\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QuestionServer.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Network\Server.cpp">
+      <Filter>Resource Files\Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Random\PrimeSearch.cpp">
+      <Filter>Resource Files\Source Files\Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Questions\Question.h">
+      <Filter>Header Files\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Questions\CodingComponent.h">
+      <Filter>Header Files\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Questions\MultichoiceComponent.h">
+      <Filter>Header Files\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Questions\QuestionComponent.h">
+      <Filter>Header Files\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Includes\tinyxml2.h">
+      <Filter>Header Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Questions\Quiz.h">
+      <Filter>Header Files\Quiz</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\QuizFactory\QuizFactory.h">
+      <Filter>Header Files\Quiz</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Network\Server.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\QuestionServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Random\PrimeSearch.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

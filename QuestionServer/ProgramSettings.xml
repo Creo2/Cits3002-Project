@@ -1,0 +1,10 @@
+
+<Settings>
+	<QuizDirectory>C:\Users\rhysc\OneDrive\Documents\QuestionServer\QuestionServer\Data</QuizDirectory>
+	<Server
+		listenPort="27015"
+		backLog = "SOMAXCONN" 
+		certificateFile = "C:\Users\rhysc\OneDrive\Documents\QuestionServer\QuestionServer\ServerCertificate\cert2.pem"
+		privateKeyFile =  "C:\Users\rhysc\OneDrive\Documents\QuestionServer\QuestionServer\ServerCertificate\key2.pem"
+	/>
+</Settings>
